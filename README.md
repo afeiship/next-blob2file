@@ -23,6 +23,9 @@ fetch('https://dth-beta.alo7.com/alo7/ace/dsr_manager/lATPDhJzv_TUh4_OdTixz85UZw
   });
 ```
 
+## resources
+- https://stackoverflow.com/questions/25046301/convert-url-to-file-or-blob-for-filereader-readasdataurl
+
 ## license
 Code released under [the MIT license](https://github.com/afeiship/next-blob2file/blob/master/LICENSE.txt).
 
