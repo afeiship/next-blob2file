@@ -18,8 +18,16 @@ import '@jswork/next-blob2file';
 fetch('https://dth-beta.alo7.com/alo7/ace/dsr_manager/lATPDhJzv_TUh4_OdTixz85UZwQr.amr')
   .then(res=>res.blob())
   .then(res=>{
-    const file = nx.blob2file(res, 'lATPDhJzv_TUh4_OdTixz85UZwQr.amr')
-    // File {name: "lATPDhJzv_TUh4_OdTixz85UZwQr.amr", lastModified: 1618309936979, lastModifiedDate: ...
+    const file = nx.blob2file(res, 'lATPDhJzv_TUh4_OdTixz85UZwQr.amr');
+    
+    /*
+    File 
+    {
+      name: "lATPDhJzv_TUh4_OdTixz85UZwQr.amr", 
+      lastModified: 1618309936979, 
+      lastModifiedDate: ...
+    }
+    */
   });
 ```
 
